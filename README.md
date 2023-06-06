@@ -14,3 +14,7 @@ git clone https://github.com/devbytemehedi/Windows_Terminal_Customization.git
 ```bash
 %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
 ```
+and place the `WT-ICONS` folder in this location
+```bash
+%userprofile%
+```
