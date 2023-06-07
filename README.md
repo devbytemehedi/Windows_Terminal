@@ -1,5 +1,7 @@
 # Windows Terminal Customization
 
+<p align="center"><a href="https://github.com/devbytemehedi/windows_terminal_customization"><img src="./Preview.webp" width="600px"></a></p>
+
 ## Installation
 * Install or Update [Windows Terminal](https://github.com/microsoft/terminal.git)
 ```bash
