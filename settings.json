@@ -10,18 +10,15 @@
     {
         "defaults": 
         {
-            "colorScheme": "Dracula",
-            "tabColor": "#282A36",
+            "colorScheme": "xcad",
             "cursorShape": "filledBox",
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font Mono",
-                "size": 14
+                "size": 14.0
             },
             "historySize": 12000,
             "intenseTextStyle": "bright",
-            "opacity": 2,
-            "padding": "8",
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
@@ -34,8 +31,8 @@
                 "icon": "%userprofile%\\WT-ICONS\\pwsh.png",
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
-                "tabTitle": "pwsh",
-                "startingDirectory": "%userprofile%"
+                "startingDirectory": "%userprofile%",
+                "tabTitle": "pwsh"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -43,14 +40,15 @@
                 "hidden": false,
                 "icon": "%userprofile%\\WT-ICONS\\cmd.png",
                 "name": "Commandline",
-                "tabTitle": "cmd",
-                "startingDirectory": "%SystemRoot%"
+                "startingDirectory": "%SystemRoot%",
+                "tabTitle": "cmd"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe --NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
                 "name": "Windows PowerShell",
+                "startingDirectory": "%userprofile%",
                 "tabTitle": "winpwsh"
             },
             {
@@ -60,67 +58,18 @@
                 "icon": "%userprofile%\\WT-ICONS\\gitbash.png",
                 "name": "Git Bash",
                 "source": "Git",
-                "tabTitle": "gitbash",
-                "startingDirectory": "%userprofile%\\gitrepo"
+                "startingDirectory": "%userprofile%\\gitrepo",
+                "tabTitle": "gitbash"
             }
         ]
     },
     "schemes": 
     [
+
         {
-            "name": "xcad",
-            "black": "#121212",
-            "red": "#A52AFF",
-            "green": "#7129FF",
-            "yellow": "#3D2AFF",
-            "blue": "#2B4FFF",
-            "purple": "#2883FF",
-            "cyan": "#28B9FF",
-            "white": "#F1F1F1",
-            "brightBlack": "#666666",
-            "brightBlue": "#5C78FF",
-            "brightCyan": "#5AC8FF",
-            "brightGreen": "#905AFF",
-            "brightPurple": "#5EA2FF",
-            "brightRed": "#BA5AFF",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#685AFF",
-            "cursorColor": "#FFFFFF",
-            "background": "#1A1A1A",
-            "foreground": "#F1F1F1",
-            "selectionBackground": "#FFFFFF"
-        },
-        {
-            "name": "TokyoNight",
-            "black": "#363b54",
-            "red": "#f7768e",
-            "green": "#41a6b5",
-            "yellow": "#e0af68",
-            "blue": "#7aa2f7",
-            "purple": "#bb9af7",
-            "cyan": "#7dcfff",
-            "white": "#787c99",
-            "brightBlack": "#363b54",
-            "brightRed": "#f7768e",
-            "brightGreen": "#41a6b5",
-            "brightYellow": "#e0af68",
-            "brightBlue": "#7aa2f7",
-            "brightPurple": "#bb9af7",
-            "brightCyan": "#7dcfff",
-            "brightWhite": "#acb0d0",
-            "background": "#16161e",
-            "foreground": "#787c99"
-          },
-          {
-            "name": "Dracula",
+            "background": "#282A36",
             "black": "#21222C",
             "blue": "#BD93F9",
-            "cyan": "#8BE9FD",
-            "green": "#50FA7B",
-            "purple": "#FF79C6",
-            "red": "#FF5555",
-            "white": "#F8F8F2",
-            "yellow": "#F1FA8C",
             "brightBlack": "#6272A4",
             "brightBlue": "#D6ACFF",
             "brightCyan": "#A4FFFF",
@@ -130,9 +79,63 @@
             "brightWhite": "#FFFFFF",
             "brightYellow": "#FFFFA5",
             "cursorColor": "#F8F8F2",
-            "background": "#282A36",
+            "cyan": "#8BE9FD",
             "foreground": "#F8F8F2",
-            "selectionBackground": "#44475A"
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
+        },
+
+        {
+            "background": "#16161E",
+            "black": "#363B54",
+            "blue": "#7AA2F7",
+            "brightBlack": "#363B54",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#41A6B5",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#ACB0D0",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#7DCFFF",
+            "foreground": "#787C99",
+            "green": "#41A6B5",
+            "name": "TokyoNight",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#FFFFFF",
+            "white": "#787C99",
+            "yellow": "#E0AF68"
+        },
+
+        {
+            "background": "#1A1A1A",
+            "black": "#121212",
+            "blue": "#2B4FFF",
+            "brightBlack": "#666666",
+            "brightBlue": "#5C78FF",
+            "brightCyan": "#5AC8FF",
+            "brightGreen": "#905AFF",
+            "brightPurple": "#5EA2FF",
+            "brightRed": "#BA5AFF",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#685AFF",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#28B9FF",
+            "foreground": "#F1F1F1",
+            "green": "#7129FF",
+            "name": "xcad",
+            "purple": "#2883FF",
+            "red": "#A52AFF",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F1F1F1",
+            "yellow": "#3D2AFF"
         }
     ],
     "showTabsInTitlebar": true,
