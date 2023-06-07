@@ -20,6 +20,7 @@
             "historySize": 12000,
             "intenseTextStyle": "bright",
             "scrollbarState": "hidden",
+            "opacity": 50,
             "useAcrylic": true
         },
         "list": 
