@@ -16,7 +16,8 @@ git clone https://github.com/devbytemehedi/windows_terminal_customization.git
 ```bash
 %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
 ```
-and place the `WT-ICONS` folder in this location
+* place the `WT-ICONS` folder in this location
 ```bash
 %userprofile%
 ```
+* to customize prompt follow this [link](https://github.com/devbytemehedi/starship_customization)
